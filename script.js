@@ -1,5 +1,5 @@
 // ===== НАСТРОЙКИ GITHUB (обязательно замените на свои) =====
-const GITHUB_TOKEN = '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';          // Personal Access Token (classic) с правами repo
+const GITHUB_TOKEN = '';          // Personal Access Token (classic) с правами repo
 const REPO_OWNER = 'siaskasnaz';                 // ваш логин на GitHub
 const REPO_NAME = 'YaCookie-messages';           // имя ПРИВАТНОГО репозитория
 const FILE_PATH = 'messages.json';              // имя файла для хранения сообщений
